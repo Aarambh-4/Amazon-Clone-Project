@@ -199,6 +199,25 @@
     align-items: flex-end;
     justify-content: center;
     display: flex;
+    animation: slider 15s infinite;    
+}
+@keyframes slider {
+    25%{
+        background-image: url(beauty.jpg);
+        background-repeat: no-repeat;
+    }
+    50%{
+        background-image: url(books.jpg);
+        background-repeat: no-repeat;
+    }
+    75%{
+        background-image: url(kitchen.jpg);
+        background-repeat: no-repeat;
+    }
+    100%{
+        background-image: url(toys.jpg);
+        background-repeat: no-repeat;
+    }
 }
 
 .hero-massg {
